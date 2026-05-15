@@ -1,8 +1,10 @@
+import TechBadges from './components/TechBadges';
 
 function App() {
 
   return (
     <>
+      <TechBadges />
       <main className="max-w-3xl mx-auto gap-8 flex">
         <div className="py-8 flex flex-col justify-center">
           <h1 className="text-4xl font-bold uppercase mb-8">
